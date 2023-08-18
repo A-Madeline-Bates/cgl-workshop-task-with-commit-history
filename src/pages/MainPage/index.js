@@ -3,20 +3,20 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// Couch to 5k components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKSocialButton from "components/MKSocialButton";
-import { RunningVideoHeader } from "pages/MainPage/sections/RunningVideoHeader";
-import DefaultFooter from "features/Footers/DefaultFooter";
-
-// MainPage page components
-import VisitNHSWebsite from "features/Cards/VisitNHSWebsiteCard";
-
 // Routes
 import footerRoutes from "footer.routes";
 
-// Sections
+// Components
+import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
+import MKSocialButton from "components/MKSocialButton";
+
+// Features
+import VisitNHSWebsite from "features/Cards/VisitNHSWebsiteCard";
+import DefaultFooter from "features/Footers/DefaultFooter";
+
+// MainPage Sections
+import { RunningVideoHeader } from "pages/MainPage/sections/RunningVideoHeader";
 import Counters from "pages/MainPage/sections/Counters";
 import Information from "pages/MainPage/sections/Information";
 import Testimonials from "pages/MainPage/sections/Testimonials";
@@ -27,9 +27,9 @@ function MainPage() {
     <>
       {/* Video header */}
       <RunningVideoHeader />
+      {/* Main title */}
       <Container>
         <Grid container item xs={12} lg={7} justifyContent="center" marginInline="auto">
-          {/* Main title */}
           <MKTypography
             variant="mainHeader"
             color="white"
@@ -70,7 +70,7 @@ function MainPage() {
         >
           <Team />
         </Card>
-        {/* Visit NHS Website */}
+        {/* Visit NHS Website card */}
         <Container sx={{ marginTop: 6 }}>
           <VisitNHSWebsite />
         </Container>
