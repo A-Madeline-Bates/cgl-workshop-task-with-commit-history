@@ -45,7 +45,7 @@ function FilledInfoCard({ variant, color, icon, title, description, action }) {
       borderRadius="xl"
       paddingTop={3.5}
       paddingBottom={3}
-      px={3}
+      paddingInline={3}
     >
       <MKTypography
         display="block"

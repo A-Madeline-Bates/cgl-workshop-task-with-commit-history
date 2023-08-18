@@ -14,7 +14,7 @@ function HorizontalTeamCard({ image, name, position, description }) {
     <Card sx={{ marginTop: 3 }}>
       <Grid container>
         <Grid item xs={12} md={6} lg={4} sx={{ marginTop: -6 }}>
-          <MKBox width="100%" paddingTop={2} paddingBottom={1} px={2}>
+          <MKBox width="100%" paddingTop={2} paddingBottom={1} paddingInline={2}>
             <MKBox
               component="img"
               src={image}

@@ -16,8 +16,8 @@ function VisitNHSWebsite() {
       display="flex"
       alignItems="center"
       borderRadius="xl"
-      my={2}
-      py={6}
+      marginBlock={2}
+      paddingBlock={6}
       sx={{
         backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
           `${linearGradient(

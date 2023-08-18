@@ -11,7 +11,7 @@ import DefaultReviewCard from "features/Cards/ReviewCards/DefaultReviewCard";
 
 function Information() {
   return (
-    <MKBox component="section" py={12}>
+    <MKBox component="section" paddingBlock={12}>
       <Container>
         <Grid
           container

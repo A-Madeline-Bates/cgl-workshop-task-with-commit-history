@@ -114,7 +114,7 @@ function DefaultReviewCard({ color, image, name, date, review, rating }) {
       <MKTypography
         variant="body2"
         color={color === "transparent" || color === "light" ? "text" : "white"}
-        my={4}
+        marginBlock={4}
       >
         &quot;{review}&quot;
       </MKTypography>

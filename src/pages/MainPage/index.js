@@ -28,7 +28,7 @@ function MainPage() {
       {/* Video header */}
       <RunningVideoHeader />
       <Container>
-        <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
+        <Grid container item xs={12} lg={7} justifyContent="center" marginInline="auto">
           {/* Main title */}
           <MKTypography
             variant="mainHeader"
@@ -98,7 +98,7 @@ function MainPage() {
                 item
                 xs={12}
                 lg={5}
-                my={{ xs: 5, lg: "auto" }}
+                marginBlock={{ xs: 5, lg: "auto" }}
                 marginRight={{ xs: 0, lg: "auto" }}
                 sx={{ textAlign: { xs: "center", lg: "right" } }}
               >
@@ -130,7 +130,7 @@ function MainPage() {
         </MKBox>
       </Card>
       {/* Page footer */}
-      <MKBox paddingTop={6} px={1} marginTop={6}>
+      <MKBox paddingTop={6} paddingInline={1} marginTop={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>
