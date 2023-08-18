@@ -61,10 +61,10 @@ function MainPage() {
         {/* Coach bios */}
         <Card
           sx={{
-            p: 2,
-            mx: { xs: 2, lg: 3 },
-            mt: -8,
-            mb: 4,
+            padding: 2,
+            marginInline: { xs: 2, lg: 3 },
+            marginTop: -8,
+            marginBottom: 4,
             boxShadow: ({ boxShadows: { xxl } }) => xxl,
           }}
         >
