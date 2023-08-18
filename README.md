@@ -39,7 +39,7 @@ You can also test the Chrome extension out on some real web pages:
 
 The Chrome extension uses the Green Software Foundation's [Software Carbon Intensity Specifications](https://github.com/Green-Software-Foundation/sci/blob/dev/Software_Carbon_Intensity/Software_Carbon_Intensity_Specification.md) to calculate your score. It is a open source project, you can see the source code [here](https://github.com/Theodo-UK/sustainability-calculator).
 
-### Understanding the repo
+## Understanding the repo
 
 This project has been built using [MaterialUI](https://mui.com/) and [React](https://react.dev/). If you're unsure where to start, look in `src/pages/MainPage/index.js`. At the simplest, you can just start removing things from here, and see what effect it has!
 
