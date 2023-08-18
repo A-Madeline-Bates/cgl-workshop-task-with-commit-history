@@ -14,7 +14,7 @@ function HorizontalTeamCard({ image, name, position, description }) {
     <Card sx={{ marginTop: 3 }}>
       <Grid container>
         <Grid item xs={12} md={6} lg={4} sx={{ marginTop: -6 }}>
-          <MKBox width="100%" pt={2} pb={1} px={2}>
+          <MKBox width="100%" paddingTop={2} paddingBottom={1} px={2}>
             <MKBox
               component="img"
               src={image}
@@ -27,9 +27,15 @@ function HorizontalTeamCard({ image, name, position, description }) {
           </MKBox>
         </Grid>
         <Grid item xs={12} md={6} lg={8} sx={{ my: "auto" }}>
-          <MKBox pt={{ xs: 1, lg: 2.5 }} pb={2.5} pr={4} pl={{ xs: 4, lg: 1 }} lineHeight={1}>
+          <MKBox
+            paddingTop={{ xs: 1, lg: 2.5 }}
+            paddingBottom={2.5}
+            paddingRight={4}
+            paddingLeft={{ xs: 4, lg: 1 }}
+            lineHeight={1}
+          >
             <MKTypography variant="h5">{name}</MKTypography>
-            <MKTypography variant="h6" color={position.color} mb={1}>
+            <MKTypography variant="h6" color={position.color} marginBottom={1}>
               {position.label}
             </MKTypography>
             <MKTypography variant="body2" color="text">

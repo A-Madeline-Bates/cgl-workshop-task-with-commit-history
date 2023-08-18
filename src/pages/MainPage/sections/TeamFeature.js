@@ -40,7 +40,7 @@ function Team() {
         </Grid>
         <Grid container spacing={3}>
           <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
+            <MKBox marginBottom={1}>
               <HorizontalTeamCard
                 image={team1}
                 name="Jo Whiley"
@@ -50,7 +50,7 @@ function Team() {
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
-            <MKBox mb={1}>
+            <MKBox marginBottom={1}>
               <HorizontalTeamCard
                 image={team2}
                 name="Michael Johnson"
@@ -60,7 +60,7 @@ function Team() {
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
+            <MKBox marginBottom={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team3}
                 name="Sanjeev Kohli"
@@ -70,7 +70,7 @@ function Team() {
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
+            <MKBox marginBottom={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team4}
                 name="Sarah Millican"

@@ -77,11 +77,17 @@ function MainPage() {
         {/* Testimonials and reviews */}
         <Testimonials />
         {/* Social media links */}
-        <MKBox pb={6}>
+        <MKBox paddingBottom={6}>
           <Container>
             <Grid container spacing={3}>
-              <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
-                <MKTypography variant="h4" fontWeight="bold" mb={0.5}>
+              <Grid
+                item
+                xs={12}
+                lg={5}
+                marginLeft="auto"
+                sx={{ textAlign: { xs: "center", lg: "left" } }}
+              >
+                <MKTypography variant="h4" fontWeight="bold" marginBottom={0.5}>
                   Thank you for your support!
                 </MKTypography>
                 <MKTypography variant="body1" color="text">
@@ -93,7 +99,7 @@ function MainPage() {
                 xs={12}
                 lg={5}
                 my={{ xs: 5, lg: "auto" }}
-                mr={{ xs: 0, lg: "auto" }}
+                marginRight={{ xs: 0, lg: "auto" }}
                 sx={{ textAlign: { xs: "center", lg: "right" } }}
               >
                 <MKSocialButton
@@ -124,7 +130,7 @@ function MainPage() {
         </MKBox>
       </Card>
       {/* Page footer */}
-      <MKBox pt={6} px={1} mt={6}>
+      <MKBox paddingTop={6} px={1} marginTop={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>
