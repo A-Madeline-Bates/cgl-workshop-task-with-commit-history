@@ -96,7 +96,7 @@ function DefaultReviewCard({ color, image, name, date, review, rating }) {
           variant={image ? "button" : "h6"}
           fontWeight="bold"
           color={color === "transparent" || color === "light" ? "dark" : "white"}
-          mb={0.5}
+          marginBottom={0.5}
         >
           {name}
         </MKTypography>
@@ -114,7 +114,7 @@ function DefaultReviewCard({ color, image, name, date, review, rating }) {
       <MKTypography
         variant="body2"
         color={color === "transparent" || color === "light" ? "text" : "white"}
-        my={4}
+        marginBlock={4}
       >
         &quot;{review}&quot;
       </MKTypography>

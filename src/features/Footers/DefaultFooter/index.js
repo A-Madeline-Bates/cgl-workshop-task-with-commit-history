@@ -22,11 +22,17 @@ function DefaultFooter({ content }) {
           <Grid item xs={12} md={3} sx={{ marginLeft: "auto", marginBottom: 3 }}>
             <MKBox>
               <Link to={brand.route}>
-                <MKBox component="img" src={brand.image} alt={brand.name} maxWidth="2rem" mb={2} />
+                <MKBox
+                  component="img"
+                  src={brand.image}
+                  alt={brand.name}
+                  maxWidth="2rem"
+                  marginBottom={2}
+                />
               </Link>
               <MKTypography variant="h6">{brand.name}</MKTypography>
             </MKBox>
-            <MKBox display="flex" alignItems="center" mt={3}>
+            <MKBox display="flex" alignItems="center" marginTop={3}>
               {socials.map(({ icon, link }, key) => (
                 <MKTypography
                   key={key}
@@ -37,7 +43,7 @@ function DefaultFooter({ content }) {
                   variant="h5"
                   color="dark"
                   opacity={0.8}
-                  mr={key === socials.length - 1 ? 0 : 2.5}
+                  marginRight={key === socials.length - 1 ? 0 : 2.5}
                 >
                   {icon}
                 </MKTypography>
@@ -51,7 +57,7 @@ function DefaultFooter({ content }) {
                 variant="button"
                 fontWeight="bold"
                 textTransform="capitalize"
-                mb={1}
+                marginBottom={1}
               >
                 {title}
               </MKTypography>

@@ -3,20 +3,20 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// Couch to 5k components
-import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
-import MKSocialButton from "components/MKSocialButton";
-import { RunningVideoHeader } from "pages/MainPage/sections/RunningVideoHeader";
-import DefaultFooter from "features/Footers/DefaultFooter";
-
-// MainPage page components
-import VisitNHSWebsite from "features/Cards/VisitNHSWebsiteCard";
-
 // Routes
 import footerRoutes from "footer.routes";
 
-// Sections
+// Components
+import MKBox from "components/MKBox";
+import MKTypography from "components/MKTypography";
+import MKSocialButton from "components/MKSocialButton";
+
+// Features
+import VisitNHSWebsite from "features/Cards/VisitNHSWebsiteCard";
+import DefaultFooter from "features/Footers/DefaultFooter";
+
+// MainPage Sections
+import { RunningVideoHeader } from "pages/MainPage/sections/RunningVideoHeader";
 import Counters from "pages/MainPage/sections/Counters";
 import Information from "pages/MainPage/sections/Information";
 import Testimonials from "pages/MainPage/sections/Testimonials";
@@ -27,9 +27,9 @@ function MainPage() {
     <>
       {/* Video header */}
       <RunningVideoHeader />
+      {/* Main title */}
       <Container>
-        <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
-          {/* Main title */}
+        <Grid container item xs={12} lg={7} justifyContent="center" marginInline="auto">
           <MKTypography
             variant="mainHeader"
             color="white"
@@ -61,27 +61,33 @@ function MainPage() {
         {/* Coach bios */}
         <Card
           sx={{
-            p: 2,
-            mx: { xs: 2, lg: 3 },
-            mt: -8,
-            mb: 4,
+            padding: 2,
+            marginInline: { xs: 2, lg: 3 },
+            marginTop: -8,
+            marginBottom: 4,
             boxShadow: ({ boxShadows: { xxl } }) => xxl,
           }}
         >
           <Team />
         </Card>
-        {/* Visit NHS Website */}
+        {/* Visit NHS Website card */}
         <Container sx={{ marginTop: 6 }}>
           <VisitNHSWebsite />
         </Container>
         {/* Testimonials and reviews */}
         <Testimonials />
         {/* Social media links */}
-        <MKBox pb={6}>
+        <MKBox paddingBottom={6}>
           <Container>
             <Grid container spacing={3}>
-              <Grid item xs={12} lg={5} ml="auto" sx={{ textAlign: { xs: "center", lg: "left" } }}>
-                <MKTypography variant="h4" fontWeight="bold" mb={0.5}>
+              <Grid
+                item
+                xs={12}
+                lg={5}
+                marginLeft="auto"
+                sx={{ textAlign: { xs: "center", lg: "left" } }}
+              >
+                <MKTypography variant="h4" fontWeight="bold" marginBottom={0.5}>
                   Thank you for your support!
                 </MKTypography>
                 <MKTypography variant="body1" color="text">
@@ -92,8 +98,8 @@ function MainPage() {
                 item
                 xs={12}
                 lg={5}
-                my={{ xs: 5, lg: "auto" }}
-                mr={{ xs: 0, lg: "auto" }}
+                marginBlock={{ xs: 5, lg: "auto" }}
+                marginRight={{ xs: 0, lg: "auto" }}
                 sx={{ textAlign: { xs: "center", lg: "right" } }}
               >
                 <MKSocialButton
@@ -124,7 +130,7 @@ function MainPage() {
         </MKBox>
       </Card>
       {/* Page footer */}
-      <MKBox pt={6} px={1} mt={6}>
+      <MKBox paddingTop={6} paddingInline={1} marginTop={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>
     </>

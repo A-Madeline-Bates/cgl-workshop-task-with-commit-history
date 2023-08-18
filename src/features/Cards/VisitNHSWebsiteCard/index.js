@@ -16,8 +16,8 @@ function VisitNHSWebsite() {
       display="flex"
       alignItems="center"
       borderRadius="xl"
-      my={2}
-      py={6}
+      marginBlock={2}
+      paddingBlock={6}
       sx={{
         backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
           `${linearGradient(
@@ -33,10 +33,10 @@ function VisitNHSWebsite() {
           <MKTypography variant="h4" color="white" fontWeight="bold">
             explore further
           </MKTypography>
-          <MKTypography variant="h1" color="white" mb={1}>
+          <MKTypography variant="h1" color="white" marginBottom={1}>
             Go to the NHS website to find out more about the benefits of running
           </MKTypography>
-          <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
+          <MKTypography variant="body1" color="white" opacity={0.8} marginBottom={2}>
             And what other tools you can use on your fitness journey now.
           </MKTypography>
           <MKTypography

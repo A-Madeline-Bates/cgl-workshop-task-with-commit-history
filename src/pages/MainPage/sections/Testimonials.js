@@ -11,7 +11,7 @@ import DefaultReviewCard from "features/Cards/ReviewCards/DefaultReviewCard";
 
 function Information() {
   return (
-    <MKBox component="section" py={12}>
+    <MKBox component="section" paddingBlock={12}>
       <Container>
         <Grid
           container
@@ -22,10 +22,10 @@ function Information() {
           sx={{ mx: "auto", textAlign: "center" }}
         >
           <MKTypography variant="h2">Valued by over </MKTypography>
-          <MKTypography variant="h2" color="info" textGradient mb={2}>
+          <MKTypography variant="h2" color="info" textGradient marginBottom={2}>
             336,200+ apple store users
           </MKTypography>
-          <MKTypography variant="body1" color="text" mb={2}>
+          <MKTypography variant="body1" color="text" marginBottom={2}>
             Couch to 5K has a 4.8 star rating on the App Store, after thousands of downloads
           </MKTypography>
         </Grid>

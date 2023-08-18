@@ -28,8 +28,8 @@ function DefaultInfoCard({ color, icon, title, description, direction, small }) 
         display="block"
         variant="5"
         fontWeight="bold"
-        mt={direction === "center" ? 1 : 2}
-        mb={1.5}
+        marginTop={direction === "center" ? 1 : 2}
+        marginBottom={1.5}
       >
         {title}
       </MKTypography>
@@ -37,8 +37,8 @@ function DefaultInfoCard({ color, icon, title, description, direction, small }) 
         display="block"
         variant={small ? "button" : "body2"}
         color="text"
-        pr={direction === "left" ? 6 : 0}
-        pl={direction === "right" ? 6 : 0}
+        paddingRight={direction === "left" ? 6 : 0}
+        paddingLeft={direction === "right" ? 6 : 0}
       >
         {description}
       </MKTypography>
