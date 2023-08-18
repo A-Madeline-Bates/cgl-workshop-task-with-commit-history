@@ -2,14 +2,14 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-// Material Kit 2 React components
+// Couch to 5k components
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
-import RotatingCard from "examples/Cards/RotatingCard";
-import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
-import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
-import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
+// Couch to 5k examples
+import RotatingCard from "features/Cards/RotatingCard";
+import RotatingCardFront from "features/Cards/RotatingCard/RotatingCardFront";
+import RotatingCardBack from "features/Cards/RotatingCard/RotatingCardBack";
+import DefaultInfoCard from "features/Cards/InfoCards/DefaultInfoCard";
 
 // Images
 import bgFront from "assets/images/rotating-card-bg-front.jpeg";
@@ -27,56 +27,55 @@ function Information() {
                 icon="touch_app"
                 title={
                   <>
-                    Feel the
+                    Download
                     <br />
-                    Material Kit
+                    the App
                   </>
                 }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                description="Get started on your running journey."
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Available on the App store"
+                description="Free to download on the Android and Apple stores"
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "download",
                 }}
               />
             </RotatingCard>
           </Grid>
-          <Grid item xs={12} lg={7} sx={{ ml: "auto" }}>
+          <Grid item xs={12} lg={7} sx={{ marginLeft: "auto" }}>
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  icon="run_circle"
+                  title="Absolute Beginners"
+                  description="Couch to 5K is a running plan for absolute beginners."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  icon="calendar_month"
+                  title="A comprehensive plan"
+                  description="3 runs a week, with a day of rest in between, and a different schedule for each of the 9 weeks."
                 />
               </Grid>
             </Grid>
-            <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
+            <Grid container spacing={3} sx={{ marginTop: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  icon="schedule"
+                  title="Realistic expectations "
+                  description="Week 1 involves running for just a minute at a time, creating realistic expectations and making the challenge feel achievable right from the start."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  icon="favorite"
+                  title="Improve your physical health"
+                  description="Running regularly will improve your health and help you manage stress."
                 />
               </Grid>
             </Grid>
