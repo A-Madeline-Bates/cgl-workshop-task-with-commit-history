@@ -19,7 +19,7 @@ You will need to use Chrome as your browser for this task.
 
 ## How to improve the emissions score of your webpage
 
-There are obviously many different ways to make a piece of software more sustainable. The Sustainability Calculator Chrome extension calculates a score by looking at the size of the files that a user is having to download to see a webpage. So if you want to get a better score on your web page, the objective is to make your front end lighter!
+There are obviously many different ways to make a piece of software more sustainable. The [Sustainability Calculator Chrome extension](https://chrome.google.com/webstore/detail/sustainability-calculator/mdecmmmlfhgjmdhkginjjnpbnlobkhom/related) calculates a score by looking at the size of the files that a user is having to download to see a webpage. So if you want to get a better score on your web page, the objective is to make your front end lighter!
 
 You can check out our cheat sheet to get some ideas about how to do that.
 
