@@ -1,11 +1,5 @@
 ## Sustainable Frontend Cheatsheet
 
-### Unused elements
-
-- Check if the package.json contains any packages that are not being used - the packages you use will make a big contribution to the size of your repository. You can use depcheck to find them. Remember to run ‘npm install’ after changing your package.json to see your changes.
-- If you can minimise the number of packages you use, that can help you further reduce overhead.
-- Check that you don’t have any unused assets or code within your repository. Anything marked as 'old' or 'archive' within the repository should be deleted.
-
 ### Video
 
 - **Note: Because the video header is streaming, changes you make to it won't be immediately visible on the sustainability calculator's score. If you leave the calculator recording, it be contribute to the score increasing over time. However, you can see the full impact of the video if you analyse the website's payload using Lighthouse. You can find out how to do that [here](https://developer.chrome.com/docs/lighthouse/overview/#devtools).**
