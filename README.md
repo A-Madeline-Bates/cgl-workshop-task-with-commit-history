@@ -109,9 +109,9 @@ material-kit-2-react
 <table>
   <tbody>
     <tr>
-        <td valign="top"><a href="https://www.mastercard.co.uk/en-gb.html"><img src="assets/Mastercard.svg" width="100px;" alt="Mastercard"/><br /><sub><b>Mastercard</b></sub></a></td>
-        <td valign="top"><a href="https://www.theodo.co.uk/"><img src="assets/Theodo.svg" width="100px;" alt="Theodo"/><br /><sub><b>Theodo</b></sub></a></td>
-        <td valign="top"><a href="https://www.aleios.com/"><img src="assets/aleios.png" width="100px;" alt="aleios"/><br /><sub><b>aleios</b></sub></a></td>
+        <td valign="top"><a href="https://www.mastercard.co.uk/en-gb.html"><img src="assets/Mastercard.svg" width="100px;" alt="Mastercard"/></a></td>
+        <td valign="top"><a href="https://www.theodo.co.uk/"><img src="assets/Theodo.svg" width="100px;" alt="Theodo"/><br /></td>
+        <td valign="top"><a href="https://www.aleios.com/"><img src="assets/aleios.png" width="100px;" alt="aleios"/></td>
     </tr>
   </tbody>
 </table>
