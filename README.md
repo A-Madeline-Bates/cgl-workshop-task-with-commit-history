@@ -59,7 +59,6 @@ material-kit-2-react
     │   └── robots.txt
     ├── src
     │   ├── assets
-    │   │   ├── __archive
     │   │   ├── images
     │   │   ├── video
     │   │   ├── theme
@@ -68,7 +67,6 @@ material-kit-2-react
     │   │   │   ├── functions
     │   │   └── └── index.js
     │   ├── components
-    │   │   ├── __archive
     │   │   ├── MKBox
     │   │   ├── MKButton
     │   │   ├── MKSocialButton
@@ -107,4 +105,14 @@ material-kit-2-react
 
 ## Thank you to our sponsors
 
-...
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+        <td valign="top"><a href="https://www.mastercard.co.uk/en-gb.html"><img src="assets/Mastercard.svg" width="100px;" alt="Mastercard"/><br /><sub><b>Mastercard</b></sub></a></td>
+        <td valign="top"><a href="https://www.theodo.co.uk/"><img src="assets/Theodo.svg" width="100px;" alt="Theodo"/><br /><sub><b>Theodo</b></sub></a></td>
+        <td valign="top"><a href="https://www.aleios.com/"><img src="assets/aleios.png" width="100px;" alt="aleios"/><br /><sub><b>aleios</b></sub></a></td>
+    </tr>
+  </tbody>
+</table>
+<!-- markdownlint-restore -->
