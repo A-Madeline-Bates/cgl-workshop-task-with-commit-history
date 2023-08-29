@@ -1,12 +1,5 @@
 ## Sustainable Frontend Cheatsheet
 
-### Video
-
-- **Note: Because the video header is streaming, changes you make to it won't be immediately visible on the sustainability calculator's score. If you leave the calculator recording, it be contribute to the score increasing over time. However, you can see the full impact of the video if you analyse the website's payload using Lighthouse. You can find out how to do that [here](https://developer.chrome.com/docs/lighthouse/overview/#devtools).**
-- Videos will make a large contribution to the weight of your page. It’s worth considering if you can deliver a good user experience without video.
-- If you have any uncompressed videos on your site, compress them.
-- If you’re hosting high quality videos, consider whether you could host them in lower quality without affecting user experience.
-
 ### Images
 
 - Images will make a large contribution to the weight of your page. It’s worth considering if you can deliver a good user experience without images, or with only a few images.
@@ -14,6 +7,13 @@
 - Consider replacing pixellated images (.jpg, .png) with vector images (.svg).
 - Right-size your images, rather than scaling them up or down using css.
 - Read more on using images effectively [here](https://sustainablewebdesign.org/has-the-design-used-imagery-efficiently/).
+
+### Video
+
+- **Note: Because the video header is streaming, changes you make to it won't be immediately visible on the sustainability calculator's score. If you leave the calculator recording, it be contribute to the score increasing over time. However, you can see the full impact of the video if you analyse the website's payload using Lighthouse. You can find out how to do that [here](https://developer.chrome.com/docs/lighthouse/overview/#devtools).**
+- Videos will make a large contribution to the weight of your page. It’s worth considering if you can deliver a good user experience without video.
+- If you have any uncompressed videos on your site, compress them.
+- If you’re hosting high quality videos, consider whether you could host them in lower quality without affecting user experience.
 
 ### Animation
 
@@ -28,9 +28,10 @@
 
 - Similarly to web fonts, if you use web icons, they need to be fetched. You can reduce the amount your webpage needs to fetch by refining the query you use to fetch them. For instance, in this project we are fetching a large number of icons (see `public/index.html`).
 
-### Efficiency
+### Efficiency and Performance
 
 - More sustainable solutions are more efficient solutions. A good way to make your project more sustainable is to look up efficiency strategies for the tech stack that you are using on your project. For instance, you can find documentation on making your React project more efficient [here](https://legacy.reactjs.org/docs/optimizing-performance.html).
+- You can gain more tips of improving the performance of your page using Lighthouse. You can find out how to do that [here](https://developer.chrome.com/docs/lighthouse/overview/#devtools).
 
 ### The Philosophy of Sustainability Design
 
