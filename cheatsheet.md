@@ -8,6 +8,7 @@
 
 ### Video
 
+- **Note: Because the video header is streaming, changes you make to it won't be immediately visible on the sustainability calculator's score. If you leave the calculator recording, it be contribute to the score increasing over time. However, you can see the full impact of the video if you analyse the website's payload using Lighthouse. You can find out how to do that [here](https://developer.chrome.com/docs/lighthouse/overview/#devtools).**
 - Videos will make a large contribution to the weight of your page. It’s worth considering if you can deliver a good user experience without video.
 - If you have any uncompressed videos on your site, compress them.
 - If you’re hosting high quality videos, consider whether you could host them in lower quality without affecting user experience.
