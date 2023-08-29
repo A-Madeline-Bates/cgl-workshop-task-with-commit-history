@@ -1,11 +1,5 @@
 ## Sustainable Frontend Cheatsheet
 
-### Unused elements
-
-- Check if the package.json contains any packages that are not being used - the packages you use will make a big contribution to the size of your repository. You can use depcheck to find them. Remember to run ‘npm install’ after changing your package.json to see your changes.
-- If you can minimise the number of packages you use, that can help you further reduce overhead.
-- Check that you don’t have any unused assets or code within your repository. Anything marked as 'old' or 'archive' within the repository should be deleted.
-
 ### Video
 
 - Videos will make a large contribution to the weight of your page. It’s worth considering if you can deliver a good user experience without video.
